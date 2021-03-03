@@ -1,0 +1,16 @@
+// @mixin fontsize($font) {
+//     font-size: $font + 16px;
+   
+// }
+
+@mixin progressbar($width,$back) {
+    width: $width;
+    height: 3px;
+    background-color: $back;
+}
+
+@mixin flex($justify , $align) {
+    display: flex;
+    justify-content:$justify ;
+    align-items: $align;
+}
